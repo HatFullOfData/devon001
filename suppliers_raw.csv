@@ -1,0 +1,26 @@
+supplier_id,supplier_name,contact_person,email,phone,address_line1,address_line2,city,county,postcode,country,product_category,minimum_order,credit_terms,delivery_days,rating,active,last_order_date
+1, Toys R Fun Ltd ,Sarah Mitchell,sarah@toysrfun.co.uk,020 7946 1234,45 Warehouse Road,,London,Greater London,E1 6AN,United Kingdom,Plush Toys,£250.00,30 days,3-5,4.5,TRUE,2024-01-15
+2,brighton BEARS,  John Smith  ,john.smith@brightonbears.com,01273 456789,12 Industrial Estate,Unit 7,Brighton,East Sussex,BN2 5HQ,UK,Soft Toys,$150.00,net 30,5-7,4.2,1,2024-02-20
+3,Model Magic Supplies,emma JONES,emma@modelmagic.co.uk, 0161 234 5678 ,78 Commerce Street,,Manchester,greater manchester,M15 4FN,United Kingdom,Model Kits,£300.00,  45 days  ,7-10,4.8,yes,2024-03-10
+4,puzzles & games direct,David Brown,d.brown@puzzlesgames.co.uk,0131 987 6543,23 Distribution Park,Building C,Edinburgh,Midlothian,EH12 9DQ,United Kingdom,Puzzles,200,30 days,3-5,null,TRUE,2024-03-25
+5,Action Figures UK,LISA DAVIES,lisa@actionfigures.co.uk,0121 876 5432,  56 Trade Center  ,,Birmingham,West Midlands,B5 7RN,United Kingdom,Action Figures,£500.00,60 days,5-7,3.9,TRUE,2024-04-05
+6,Educational Toys Wales,Michael Evans,michael.evans@edutoys-wales.com,029 2087 6543,89 School Supplies Road,Floor 2,Cardiff,south glamorgan,CF24 2SH,united kingdom,Educational Toys,£175.00,net 45,4-6,4.6,yes,2024-04-18
+7,kidz electronic toys,Rachel Wilson,rachel@kidzelectronics.co.uk,0113 765 4321,34 Technology Way,,Leeds,West Yorkshire,LS9 8TP,United Kingdom,Electronic Toys,350.00,30 days,3-5,4.3,1,2024-05-02
+8,Outdoor Play Equipment Ltd,Thomas Taylor,t.taylor@outdoorplay.co.uk,0141 654 3210,67 Park Avenue,Unit 15A,Glasgow,Lanarkshire,G3 8JD,United Kingdom,Outdoor Toys,£750.00,  30 days  ,10-14,4.7,TRUE,
+9,Craft & Creative Supplies,AMANDA ROBERTS,amanda@craftcreative.co.uk,0117 543 2109,23 Arts District,,Bristol,Bristol,BS3 4QP,United Kingdom,Arts & Crafts,price pending,45 days,5-7,4.1,TRUE,2024-06-01
+10,Baby & Toddler Toys,James Moore,j.moore@babytoddler.co.uk, 0191 432 1098 ,90 Nursery Lane,Suite 3,Newcastle,tyne and wear,NE4 7RD,United Kingdom,Baby Toys,£125.00,net 30,3-5,4.9,yes,2024-06-20
+11,board game emporium,Sophie White,sophie.white@boardgames.co.uk,0151 321 0987,45 Gaming Street,,Liverpool,Merseyside,L8 5SG,United Kingdom,Board Games,$225.00,30 days,5-7,4.4,TRUE,2024-07-08
+12,  Construction Toys Direct  ,Oliver Clark,oliver@constructiontoys.co.uk,01603 210876,18 Builder's Yard,Warehouse 4,Norwich,Norfolk,NR6 6QW,UK,Building Toys,£400.00,45 days,7-10,4.5,1,2024-07-22
+13,Science & Discovery Toys,Charlotte Martin,c.martin@sciencetoys.co.uk,01865 109765,52 Innovation Park,,Oxford,Oxfordshire,OX4 2RD,United Kingdom,Science Toys,£200.00,  net 45  ,5-7,3.8,TRUE,2024-08-05
+14,Dress Up & Role Play,Daniel Harris,daniel.h@dressupplay.co.uk,01223 098654,71 Costume Way,Unit 9,Cambridge,cambridgeshire,CB4 3NM,United Kingdom,Costumes,150.00,30 days,3-5,4.6,yes,2024-08-19
+15,Musical Instruments For Kids,Grace Anderson,grace@musickids.co.uk,023 8087 6543,34 Melody Lane,,Southampton,Hampshire,SO16 3PY,United Kingdom,Musical Toys,£300.00,45 days,5-7,4.2,TRUE,2024-09-03
+16,  Toys R Fun Ltd  ,Sarah Mitchell,sarah@toysrfun.co.uk,020 7946 1234,45 Warehouse Road,,London,Greater London,E1 6AN,United Kingdom,Plush Toys,£250.00,30 days,3-5,4.5,TRUE,2024-01-15
+17,remote control specialists,Peter Johnson,p.johnson@rcspecialists.co.uk,0114 765 4321,89 Control Center,Building B,Sheffield,south yorkshire,S9 2EP,United Kingdom,RC Toys,£450.00,  60 days  ,7-10,,TRUE,2024-09-15
+18,DOLL HOUSE SUPPLIES,Jennifer Lee,jennifer@dollhousesupplies.co.uk,0116 654 3210,12 Miniature Road,,Leicester,Leicestershire,LE2 7HG,United Kingdom,Dolls & Accessories,$325.00,net 30,5-7,4.7,1,2024-10-01
+19,Party & Novelty Toys,Mark Thompson,m.thompson@partytoys.co.uk, 01752 543 2109 ,45 Celebration Street,Unit 12,Plymouth,Devon,PL4 6AB,United Kingdom,Party Toys,£175.00,30 days,3-5,4.3,yes,2024-10-15
+20,Sports Toys & Equipment,Laura Wilson,l.wilson@sportstoys.co.uk,01332 432 1098,67 Athletic Way,,Derby,derbyshire,DE24 8UP,United Kingdom,Sports Toys,200.00,45 days,5-7,4.5,TRUE,2024-11-01
+21,vintage toy COLLECTORS,Robert Davies,robert@vintagetoys.co.uk,01482 321 0987,23 Heritage Lane,Shop 5,Hull,East Riding of Yorkshire,HU2 8DH,United Kingdom,Vintage Toys,£500.00,  net 60  ,10-14,4.8,TRUE,2024-11-15
+22,STEAM Learning Toys,Victoria Brown,v.brown@steamlearning.co.uk,01902 210876,78 Education Drive,,Wolverhampton,West Midlands,WV1 1RE,United Kingdom,STEM Toys,£275.00,45 days,-5,4.4,yes,2024-12-01
+23,bath & water toys ltd,Andrew Wilson,andrew@watertoys.co.uk,01793 109765,56 Splash Street,Unit 3A,Swindon,Wiltshire,SN2 1DY,United Kingdom,Water Toys,$125.00,30 days,3-5,4.1,1,2024-12-15
+24,Wooden Toy Makers,Catherine Taylor,c.taylor@woodentoys.co.uk, 01223 098 654,34 Craftsman Road,,Cambridge,Cambridgeshire,CB5 8PQ,United Kingdom,Wooden Toys,£350.00,  net 45  ,7-10,4.9,TRUE,
+25,magic & tricks wholesale,Steven Evans,steven@magictricks.co.uk,0118 987 6543,89 Illusion Avenue,Suite 7,Reading,Berkshire,RG1 1AX,United Kingdom,Magic Sets,150,45 days,5-7,4.2,TRUE,2025-01-10
