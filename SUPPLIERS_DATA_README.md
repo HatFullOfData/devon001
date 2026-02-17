@@ -400,47 +400,68 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
--- Create cleaned suppliers table
+-- Create cleaned suppliers table and remove duplicates
+-- Use ROW_NUMBER() to keep first occurrence of duplicates based on business keys
 CREATE TABLE suppliers_clean AS
-SELECT DISTINCT
+SELECT 
     supplier_id,
-    TRIM(supplier_name) as supplier_name,
-    TRIM(contact_person) as contact_person,
+    supplier_name,
+    contact_person,
     email,
-    TRIM(phone) as phone,
-    TRIM(address_line1) as address_line1,
+    phone,
+    address_line1,
     address_line2,
     city,
     county,
     postcode,
-    CASE 
-        WHEN LOWER(country) IN ('uk', 'united kingdom') THEN 'United Kingdom'
-        ELSE country 
-    END as country,
+    country,
     product_category,
-    CASE 
-        WHEN minimum_order = 'price pending' THEN NULL
-        ELSE CAST(REPLACE(REPLACE(minimum_order, '£', ''), '$', '') AS DECIMAL(10,2))
-    END as minimum_order,
-    TRIM(credit_terms) as credit_terms,
-    REPLACE(delivery_days, '-', '') as delivery_days,
-    CASE 
-        WHEN rating = 'null' THEN NULL
-        ELSE CAST(rating AS DECIMAL(3,1))
-    END as rating,
-    CASE 
-        WHEN active IN ('TRUE', 'yes', '1') THEN 1
-        WHEN active IN ('FALSE', 'no', '0') THEN 0
-        ELSE NULL
-    END as active,
+    minimum_order,
+    credit_terms,
+    delivery_days,
+    rating,
+    active,
     last_order_date
-FROM suppliers_staging
-WHERE supplier_id NOT IN (
-    SELECT supplier_id 
-    FROM suppliers_staging 
-    GROUP BY supplier_id 
-    HAVING COUNT(*) > 1
-);
+FROM (
+    SELECT 
+        supplier_id,
+        TRIM(supplier_name) as supplier_name,
+        TRIM(contact_person) as contact_person,
+        email,
+        TRIM(phone) as phone,
+        TRIM(address_line1) as address_line1,
+        address_line2,
+        city,
+        county,
+        postcode,
+        CASE 
+            WHEN LOWER(country) IN ('uk', 'united kingdom') THEN 'United Kingdom'
+            ELSE country 
+        END as country,
+        product_category,
+        CASE 
+            WHEN minimum_order = 'price pending' THEN NULL
+            ELSE CAST(REPLACE(REPLACE(minimum_order, '£', ''), '$', '') AS DECIMAL(10,2))
+        END as minimum_order,
+        TRIM(credit_terms) as credit_terms,
+        REPLACE(delivery_days, '-', '') as delivery_days,
+        CASE 
+            WHEN rating = 'null' THEN NULL
+            ELSE CAST(rating AS DECIMAL(3,1))
+        END as rating,
+        CASE 
+            WHEN active IN ('TRUE', 'yes', '1') THEN 1
+            WHEN active IN ('FALSE', 'no', '0') THEN 0
+            ELSE NULL
+        END as active,
+        last_order_date,
+        ROW_NUMBER() OVER (
+            PARTITION BY TRIM(supplier_name), email 
+            ORDER BY supplier_id
+        ) as row_num
+    FROM suppliers_staging
+) as cleaned
+WHERE row_num = 1;
 ```
 
 ## Expected Outcomes After Cleansing
