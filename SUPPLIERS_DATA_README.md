@@ -333,7 +333,7 @@ original_count = len(df)
 
 # 1. Trim whitespace from all string columns
 string_columns = df.select_dtypes(include=['object']).columns
-df[string_columns] = df[string_columns].apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+df[string_columns] = df[string_columns].apply(lambda x: x.str.strip())
 
 # 2. Standardize case - Title Case
 df['supplier_name'] = df['supplier_name'].str.title()
