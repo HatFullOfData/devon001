@@ -329,6 +329,7 @@ import numpy as np
 
 # Load the data
 df = pd.read_csv('suppliers_raw.csv')
+original_count = len(df)
 
 # 1. Trim whitespace from all string columns
 string_columns = df.select_dtypes(include=['object']).columns
@@ -380,7 +381,7 @@ df['credit_terms'] = df['credit_terms'].apply(standardize_terms)
 # Save cleaned data
 df.to_csv('suppliers_clean.csv', index=False)
 
-print(f"Original records: 25")
+print(f"Original records: {original_count}")
 print(f"After removing duplicates: {len(df)}")
 print(f"Records with missing ratings: {df['rating'].isna().sum()}")
 print(f"Records with missing last_order_date: {df['last_order_date'].isna().sum()}")
