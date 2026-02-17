@@ -1,6 +1,6 @@
-# Catering Supplies Product Database
+# ETL Practice Data Repository
 
-This repository contains SQL scripts and data files for managing a catering supplies product catalog.
+This repository contains SQL scripts and data files for practicing ETL (Extract, Transform, Load) skills with realistic "dirty" data that requires cleansing. Includes catering supplies products, UK customer data, and UK toy shop supplier information.
 
 ## Files Included
 
@@ -236,6 +236,35 @@ Indexes:
 11. **Small Appliances**: Mixers, blenders, toasters, coffee makers
 12. **Large Appliances**: Microwaves, food warmers, slicers
 13. **Baking**: Pans, racks, muffin tins
+
+## Additional Datasets
+
+### UK Toy Shop Suppliers Data
+See `SUPPLIERS_DATA_README.md` for details on the UK toy shop suppliers dataset.
+
+**File**: `suppliers_raw.csv`
+- **Records**: 25 supplier records (24 unique after removing duplicates)
+- **Purpose**: Practice ETL and data cleansing with UK-based toy suppliers
+- **Data Issues**: 15 different types of data quality problems including:
+  - Leading/trailing whitespace
+  - Case inconsistencies (UPPERCASE, lowercase, Mixed)
+  - Currency symbol inconsistencies (£ vs $)
+  - Boolean value variations (TRUE/yes/1)
+  - Duplicate records
+  - Missing values and "null" as text
+  - Negative values in numeric fields
+  - Country name variations (UK vs United Kingdom)
+  - And more...
+
+**Product Categories Covered**: Plush toys, action figures, puzzles, board games, educational toys, electronic toys, outdoor play equipment, arts & crafts, baby toys, dolls, RC toys, musical instruments, and more.
+
+### UK Customer Data
+See `CUSTOMER_DATA_README.md` for details on the UK customer dataset.
+
+**File**: `customers_raw.csv`
+- **Records**: 15 UK-based customer records
+- **Data Issues**: Credit limit field contains UK pound symbol (£) that needs cleansing
+- **Coverage**: Diverse locations across England, Scotland, and Wales
 
 ## License
 
