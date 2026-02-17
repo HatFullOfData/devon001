@@ -305,8 +305,8 @@ Here's a step-by-step approach to cleanse this data in Power Query (Microsoft Ex
 
 ### Step 9: Remove Duplicates
 ```powerquery
-= Table.Distinct(PreviousStep, {"supplier_id"})
-// Or to keep first occurrence:
+// Remove duplicates based on business keys (supplier name and email)
+// since the duplicate records have different supplier_ids
 = Table.Distinct(PreviousStep, {"supplier_name", "email"})
 ```
 
@@ -361,8 +361,9 @@ df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
 # 7. Fix negative values
 df['delivery_days'] = df['delivery_days'].str.replace('-', '')
 
-# 8. Remove duplicates
-df = df.drop_duplicates(subset=['supplier_id'], keep='first')
+# 8. Remove duplicates based on business keys
+# Note: Duplicate records have different supplier_ids, so use business keys
+df = df.drop_duplicates(subset=['supplier_name', 'email'], keep='first')
 
 # 9. Standardize credit terms
 def standardize_terms(term):
