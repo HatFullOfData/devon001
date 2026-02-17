@@ -1,0 +1,41 @@
+product_code,product_name,category,subcategory,description,unit_price,unit_of_measure,stock_quantity,reorder_level,supplier_name,supplier_sku,weight_kg,dimensions_cm,material,color,is_active
+CS-BOWL-001,Soup Bowl 12oz,Dinnerware,Bowls,Deep soup bowl in porcelain,7.99,each,180,40,ProChef Supplies Ltd,PCS-SB-12,0.380,19 x 19 x 6,Porcelain,White,1
+CS-BOWL-002, Pasta Bowl 16oz ,Dinnerware,Bowls,  Wide pasta bowl for generous servings  ,9.49,EACH,220,50,ProChef Supplies Ltd,PCS-PB-16,0.425,22 x 22 x 7,porcelain,white,TRUE
+CS-CUP-001,Coffee Cup 8oz,Dinnerware,Cups,Standard coffee cup with handle,$4.99,each,350,75,ProChef Supplies Ltd,PCS-CC-8,0.215,9.5 x 12.5 x 8.5,Porcelain,White,yes
+CS-CUP-002,Espresso Cup 3oz,Dinnerware,Cups,Small espresso cup,3.25,ea,280,,ProChef Supplies Ltd,PCS-EC-3,0.125,"6.5 x 8.5 x 5.5",Porcelain,white,1
+CS-SAUCE-001,Gravy Boat,Dinnerware,Serving,Elegant gravy boat with handle,12.99,each,-15,20,ProChef Supplies Ltd,PCS-GB-001,0.345,20 x 10 x 8,Porcelain,White,TRUE
+CS-PLATTER-001,Oval Serving Platter 18",Dinnerware,Serving,Large oval platter for main courses,24.99,each,95,15,ProChef Supplies Ltd,PCS-OSP-18,0.850,45.7 x 30.5 x 3,Porcelain,White,1
+cs-fork-001,Salad Fork,Cutlery,Forks,Smaller fork for salads,2.75,each,450,90,Silverline Catering,SLC-SF-001,0.055,17.5 x 2.5 x 1.5,stainless steel,Silver,TRUE
+CS-SPOON-002,Soup Spoon,Cutlery,Spoons,Round soup spoon,3.50,each,380,80,Silverline Catering,SLC-SS-002,,18 x 4.5 x 1.5,Stainless Steel,silver,1
+CS-SPOON-003,Teaspoon,Cutlery,Spoons,Small teaspoon for coffee/tea,2.50,Each,600,120,silverline catering,SLC-TS-003,0.040,14 x 3 x 1,Stainless Steel,Silver,yes
+CS-GLASS-003,Champagne Flute 8oz,Glassware,Champagne Glasses,Elegant flute for champagne and sparkling wine,5.99,each,175,35,Crystal Clear Co,CCC-CF-8,0.145,6 x 6 x 23,Crystal Glass,Clear,TRUE
+CS-GLASS-004,Beer Mug 20oz,Glassware,Beer Glasses,Heavy glass beer mug with handle,6.49,each,250,50,"Crystal Clear Co",CCC-BM-20,0.485,10 x 14 x 16,Glass,Clear,1
+CS-GLASS-005,Juice Glass 10oz,Glassware,Juice Glasses,Short tumbler for juice and soft drinks,2.99,EACH,400,100,Crystal Clear Co,CCC-JG-10,0.195,7.5 x 7.5 x 11,glass,Clear,TRUE
+CS-PITCHER-001,Water Pitcher 64oz,Glassware,Pitchers,Large glass pitcher with ice lip,15.99,each,80,20,Crystal Clear Co,CCC-WP-64,0.650,12 x 18 x 24,Glass,clear,1
+CS-RUNNER-001,Table Runner 14x72",Table Linens,Table Runners,Elegant table runner in polyester,16.99,each,120,30,Textile Masters,TM-TR-1472,0.285,35.6 x 182.9 x 0.3,Polyester,Ivory,yes
+CS-RUNNER-002,Table Runner 14x90",Table Linens,Table Runners,"Long table runner for banquet tables",21.99,each,85,20,Textile Masters,TM-TR-1490,0.365,35.6 x 228.6 x 0.3,Polyester,ivory,TRUE
+CS-NAPKIN-003,Paper Napkins White 2-ply,Disposables,Napkins,Disposable 2-ply paper napkins - pack of 100,8.99,pack,500,100,EcoServe Disposables,ESD-PN-W100,1.2,16 x 16 folded,Paper,White,1
+CS-PLATE-003,Disposable Plates 10" Pack,Disposables,Plates,Heavy duty disposable plates - 50 pack,12.99,pack,300,75,EcoServe Disposables,ESD-DP-1050,2.5,26 x 26 x 1.5,Plastic,White,TRUE
+CS-CUP-003,Disposable Cups 16oz Pack,Disposables,Cups,Insulated disposable cups - 100 pack,15.99,pack,250,50,EcoServe Disposables,ESD-DC-16100,3.8,Top: 9 Bottom: 6.5 Height: 15,Paper-PE,White,1
+CS-UTENSIL-001,Disposable Cutlery Set,Disposables,Cutlery,Fork knife spoon set - 100 sets,18.99,pack,200,40,EcoServe Disposables,ESD-CS-100,2.2,Length: 16-18cm,Plastic,Assorted,yes
+CS-CHEF-003,Chef Pants Black Checkered,Chef Apparel,Pants,Professional chef pants in classic check pattern,34.99,each,90,20,ChefWear Pro,CWP-CP-BCL,0.380,L: waist 32-34,Cotton-Poly,Black/White,TRUE
+CS-CHEF-004,Kitchen Towels Set of 12,Kitchen Textiles,Towels,Absorbent cotton kitchen towels,24.99,set,75,15,Textile Masters,TM-KT-12,0.850,40 x 60 x 5,100% Cotton,White,1
+CS-POT-001,Stock Pot 12Qt Stainless,Cookware,Pots,Large stock pot with lid,price pending,each,25,5,Kitchen Essentials Inc,KEI-SP-12Q,2.450,30 x 30 x 28,Stainless Steel,Silver,TRUE
+CS-POT-002,Dutch Oven 7Qt Cast Iron,Cookware,Pots,Enameled cast iron Dutch oven,125.99,each,20,5,Kitchen Essentials Inc,KEI-DO-7Q,6.8,28 diameter x 15 height,Cast Iron,Red,1
+CS-KNIFE-003,Bread Knife 10" Serrated,Kitchen Tools,Knives,Long serrated blade for bread and pastries,54.99,each,35,10,Blade Masters,BM-BK-10,0.265,35.5 x 4.5 x 2.5,Stainless Steel,Black,yes
+CS-PEELER-001,Y-Peeler Stainless Steel,Kitchen Tools,Utensils,Comfortable Y-shaped vegetable peeler,7.99,each,150,40,Kitchen Essentials Inc,,0.065,15 x 8 x 2,Stainless Steel,Silver,TRUE
+CS-PEELER-001,Y-Peeler Stainless Steel,Kitchen Tools,Utensils,Comfortable Y-shaped vegetable peeler,7.99,each,150,40,Kitchen Essentials Inc,KEI-YP-001,0.065,15 x 8 x 2,Stainless Steel,Silver,TRUE
+CS-SPAT-001,Silicone Spatula Heat Resistant,Kitchen Tools,Utensils,Heat resistant up to 500F,11.99,each,110,30,Kitchen Essentials Inc,KEI-SP-001,0.095,30 x 6 x 2,Silicone,Red,1
+CS-LADLE-001,Serving Ladle 8oz Stainless,Kitchen Tools,Utensils,One-piece stainless steel ladle,13.99,each,95,25,Kitchen Essentials Inc,KEI-LD-8,0.175,33 x 9 x 6,Stainless Steel,Silver,TRUE
+CS-MIXER-001,Hand Mixer 5-Speed Electric,Small Appliances,Mixers,Powerful hand mixer with chrome beaters,49.99,each,30,8,Kitchen Tech Solutions,KTS-HM-5S,1.150,22 x 18 x 12,Plastic-Metal,White,yes
+CS-BLEND-001,Commercial Blender 1000W,Small Appliances,Blenders,Heavy-duty blender with 2L glass jar,159.99,each,15,5,Kitchen Tech Solutions,KTS-CB-1000,4.2,20 x 22 x 43,Metal-Glass,Chrome,TRUE
+cs-toast-001,4-Slice Toaster Commercial,Small Appliances,Toasters,Wide-slot toaster for artisan breads,79.99,each,18,6,Kitchen Tech Solutions,KTS-TS-4S,2.8,30 x 18 x 20,Stainless Steel,silver,1
+CS-COFFEE-001,Coffee Maker 12-Cup Programmable,Small Appliances,Coffee Makers,Programmable drip coffee maker,89.99,each,22,6,Kitchen Tech Solutions,KTS-CM-12,3.5,23 x 35 x 38,Plastic-Glass,Black,TRUE
+CS-MICRO-001,Microwave Oven Commercial 1.2CF,Large Appliances,Microwaves,1200W commercial microwave,null,each,8,2,AppliancePro Corp,APC-MW-12,18.5,55 x 45 x 32,Stainless Steel,Silver,TRUE
+CS-WARM-001,Food Warmer 3-Tray Buffet,Large Appliances,Warmers,Electric buffet server with 3 trays,199.99,each,12,3,AppliancePro Corp,APC-FW-3T,8.750,65 x 35 x 25,Stainless Steel,Silver,1
+CS-GRILL-001,Contact Grill Panini Press,Small Appliances,Grills,Commercial panini press with ribbed plates,149.99,each,10,3,Kitchen Tech Solutions,KTS-PP-001,12.5,40 x 35 x 18,Stainless Steel,Silver,yes
+CS-SLICER-001,Food Slicer Electric,Small Appliances,Slicers,Adjustable thickness electric food slicer,189.99,each,8,2,Kitchen Tech Solutions,KTS-FS-001,9.2,38 x 32 x 30,Metal-Plastic,Silver,TRUE
+CS-STAND-001,Mixer Stand for Hand Mixer,Small Appliances,Accessories,Compatible stand for CS-MIXER-001,$19.99,each,25,8,Kitchen Tech Solutions,KTS-MS-001,0.650,20 x 15 x 25,Plastic,White,1
+CS-RACK-001,3-Tier Cooling Rack,Baking,Racks,Stackable cooling racks - set of 3,29.99,set,45,12,Kitchen Essentials Inc,KEI-CR-3T,1.250,40 x 25 x 3 each,Stainless Steel,Silver,TRUE
+CS-SHEET-001,Baking Sheet Pan 18x26",Baking,Pans,Commercial half-sheet aluminum pan,16.99,each,70,15,Kitchen Essentials Inc,KEI-BS-1826,0.850,45.7 x 66 x 2.5,Aluminum,Silver,yes
+CS-MUFFIN-001,Muffin Pan 12-Cup Non-Stick,Baking,Pans,Standard 12-cup muffin/cupcake pan,22.99,each,50,12,Kitchen Essentials Inc,KEI-MP-12,0.680,35 x 26 x 3.5,Aluminized Steel,Dark Gray,TRUE
