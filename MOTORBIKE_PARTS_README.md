@@ -131,10 +131,10 @@ This dataset contains various data quality issues that students should identify 
      - Standard: "120 x 70 x 43"
      - Quoted: "8 x 8 x 22"
      - Coiled format: "Coiled 30cm diameter"
-     - Descriptive: "Top: 9 Bottom: 6.5 Height: 15"
      - Text descriptions: "Cable 120cm", "Mirror 9cm diameter", "Fits bikes up to 250cm"
      - Specific measurements: "Chest: 56 Waist: 52 Length: 68"
      - Size references: "Size 43 EUR", "Waist 34\" Length 32\""
+     - Descriptive: "Case: 35 x 25 x 6", "Muffler 45cm length"
    - **Solution**: Decide on standardization approach, possibly create separate columns
 
 ### 11. **Warranty Data Issues**
