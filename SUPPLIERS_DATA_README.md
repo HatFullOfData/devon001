@@ -161,8 +161,8 @@ This dataset contains **15 different types** of data quality issues commonly fou
 **Description**: Completely duplicate supplier entries  
 **Affected Records**: Rows 1 and 16  
 **Details**: 
-- Both rows have supplier_id 1 and 16
-- Identical supplier_name: "Toys R Fun Ltd"
+- Row 1 has supplier_id 1 and Row 16 has supplier_id 16, but both represent the same supplier
+- Identical supplier_name: "Toys R Fun Ltd" (with different spacing/whitespace)
 - Same contact person, email, phone, and address
 - Same product category and terms
 
@@ -175,12 +175,14 @@ This dataset contains **15 different types** of data quality issues commonly fou
 **Description**: Multiple ways of expressing the same payment terms  
 **Affected Fields**: credit_terms  
 **Examples**:
-- `30 days` (Rows 1, 2, 7, 11, 14, 19, 23)
+- `30 days` (Rows 1, 4, 7, 11, 14, 19, 23)
 - `net 30` (Rows 2, 10, 18)
 - `  45 days  ` (Row 3 - with extra spaces)
-- `45 days` (Rows 9, 12, 20, 22, 25)
-- `net 45` (Row 13)
-- `60 days` (Rows 5, 17)
+- `45 days` (Rows 9, 12, 15, 20, 22, 25)
+- `net 45` (Row 6)
+- `  net 45  ` (Row 13, 24 - with extra spaces)
+- `60 days` (Row 5)
+- `  60 days  ` (Row 17 - with extra spaces)
 - `  net 60  ` (Row 21 - with extra spaces)
 
 **Action Required**: Standardize format (e.g., all to "net XX" or all to "XX days")
