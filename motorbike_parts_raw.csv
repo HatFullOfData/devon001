@@ -1,0 +1,43 @@
+part_code,part_name,category,brand,description,unit_price,unit_of_measure,stock_quantity,reorder_level,supplier_name,supplier_sku,weight_kg,dimensions_cm,material,color,warranty_months,is_active,date_added
+MB-TIRE-001, Sport Tire 120/70-17 ,Tires,Michelin,  Front sport tire for street bikes  ,$189.99,each,45,15,MotoGear Supplies,MGS-MT-S17,5.2,120 x 70 x 43,Rubber,Black,24,1,2024-01-15
+MB-TIRE-002,Cruiser Tire 180/65-16,Tires,dunlop,Rear cruiser tire with excellent grip,229.50,EACH,38,10,MotoGear Supplies,MGS-DT-C16,7.8,180 x 65 x 40.6,rubber,black,24,TRUE,01/20/2024
+mb-helmet-001,Full Face Helmet XL,Safety Equipment,Shoei,Premium full face helmet DOT approved,549.99,each,22,8,Rider Safety Pro,RSP-SF-XL,1.65,30 x 30 x 35,Polycarbonate,Matte Black,36,yes,2024-02-10
+MB-HELMET-002, Modular Helmet L ,Safety Equipment,HJC,Flip-up modular helmet with sun visor,price pending,ea,18,5,Rider Safety Pro,RSP-HM-L,1.55,29 x 29 x 34,polycarbonate,Glossy Black,24,Y,15/02/2024
+MB-JACKET-001,Leather Jacket L,Riding Gear,DAINESE,Premium leather jacket with armor inserts,$699.00,each,15,5,GearUp Distribution,GUD-DJ-L,2.1,null,Leather,Black,12,TRUE,2024-03-01
+MB-JACKET-002,Textile Jacket XL,Riding Gear,Alpinestars,All-season textile jacket waterproof,425.99,Each,12,4,GearUp Distribution,,1.8,Chest: 56 Waist: 52 Length: 68,Textile-Cordura,black,18,1,03/15/2024
+MB-GLOVE-001, Racing Gloves L ,Riding Gear,ALPINESTARS,Full gauntlet racing gloves carbon knuckles,149.99,pair,-5,10,GearUp Distribution,GUD-AG-RL,0.35,28 x 12 x 4,Leather-Carbon,Red/Black,12,true,2024-03-20
+mb-oil-001,10W-40 Synthetic Oil,Fluids & Lubes,Motul,Premium synthetic motorcycle oil 4L,null,each,150,30,FluidTech Solutions,FTS-MO-10W4,3.6,18 x 12 x 26,Synthetic,Amber,null,TRUE,20/03/2024
+MB-OIL-002,20W-50 Mineral Oil,Fluids & Lubes,castrol,Classic mineral motorcycle oil 1L,$15.99,each,280,60,FluidTech Solutions,FTS-CO-20W1,0.92,"8 x 8 x 22",Mineral,Golden,N/A,1,2024-04-05
+MB-FILTER-001,Oil Filter,Filters,K&N,High performance oil filter,24.99,EACH,200,50,PowerParts Direct,PPD-KF-OF,0.25,10 x 10 x 12,Paper-Steel,Black,null,yes,05/04/2024
+MB-FILTER-002, Air Filter ,Filters,Hiflofiltro,OEM replacement air filter,45.50,each,95,20,PowerParts Direct,PPD-HF-AF,0.18,22 x 18 x 5,Foam-Paper,White,12,TRUE,2024-04-15
+MB-CHAIN-001,520 Chain Gold,Drive Train,DID,Gold racing chain 120 links,$125.00,each,42,12,ChainMaster Inc,CMI-DC-520G,1.95,null,Steel-Gold Plate,Gold,24,1,15/04/2024
+MB-CHAIN-002,525 Chain Standard,Drive Train,RK,Standard street chain 120 links,89.99,Each,55,15,ChainMaster Inc,CMI-RK-525,2.15,Coiled 30cm diameter,steel,Natural Silver,18,Y,2024-05-01
+MB-SPROCKET-001, Front Sprocket 15T ,Drive Train,JT Sprockets,Front sprocket 15 tooth 520 pitch,32.99,each,75,20,ChainMaster Inc,CMI-JT-F15,0.45,15 x 15 x 2,Steel,Silver,12,TRUE,01/05/2024
+MB-BRAKE-001,Brake Pads Front,Brakes,Brembo,Sintered front brake pads,79.99,set,88,25,BrakeMax Supply,BMS-BB-FP,0.35,12 x 8 x 2,Sintered Metal,Dark Gray,null,true,2024-05-10
+mb-brake-002,Brake Fluid DOT 4,Brakes,motul,High performance DOT 4 brake fluid 500ml,$18.99,each,160,40,BrakeMax Supply,BMS-MF-D4,0.55,7 x 7 x 18,synthetic,Clear-Amber,N/A,1,10/05/2024
+MB-LIGHT-001, LED Headlight Bulb ,Lights & Electrical,Philips,High brightness LED H4 bulb,65.99,each,110,30,ElectroMoto Parts,EMP-PL-H4,0.12,null,LED-Aluminum,Cool White,24,YES,2024-06-01
+MB-LIGHT-002,Turn Signal Set,Lights & Electrical,RIZOMA,Premium LED turn signal pair,149.00,pair,45,12,ElectroMoto Parts,EMP-RZ-TS,0.28,6 x 4 x 4 each,Aluminum-LED,Black,12,TRUE,01/06/2024
+MB-BATTERY-001,Battery 12V 14Ah,Electrical,Yuasa,AGM maintenance free battery YTX14-BS,159.99,each,35,10,PowerSource Ltd,PSL-YU-14,4.8,15 x 9 x 14,AGM Lead-Acid,Black,12,1,2024-06-15
+MB-BATTERY-002, Lithium Battery 12V ,Electrical,Shorai,Lightweight lithium iron battery,price pending,Each,22,8,PowerSource Ltd,PSL-SH-LI,0.85,null,Lithium Iron,Blue,24,yes,15/06/2024
+MB-CABLE-001,Throttle Cable,Controls,Motion Pro,Universal throttle cable stainless,28.99,each,95,25,ControlTech Supplies,CTS-MP-TC,0.15,Cable 120cm,Stainless Steel,Silver,12,TRUE,2024-07-01
+mb-cable-002,Clutch Cable,Controls,motion pro,Universal clutch cable stainless,$29.99,EACH,88,25,ControlTech Supplies,CTS-MP-CC,0.16,120 x 0.5 x 0.5,stainless steel,silver,12,1,01/07/2024
+MB-HANDLE-001,Handlebar Grips,Controls,PRO GRIP,Soft compound grips with gel,24.99,pair,120,30,ControlTech Supplies,CTS-PG-HG,0.22,12 x 3 x 3 each,Rubber-Gel,Black,null,true,2024-07-10
+MB-MIRROR-001, Bar End Mirror ,Accessories,CRG,Aluminum bar end mirror left/right,89.99,each,48,15,AccessoryWorld,AW-CRG-BM,0.35,Mirror 9cm diameter,Aluminum-Glass,Black,12,TRUE,10/07/2024
+MB-TANK-001,Tank Pad,Accessories,TechSpec,Rubber tank grip pad snake skin,45.99,each,75,20,AccessoryWorld,AW-TS-TP,0.18,18 x 12 x 0.3,Rubber,black,null,YES,2024-08-01
+MB-STAND-001, Rear Paddock Stand ,Maintenance Tools,PITBULL,Heavy duty rear paddock stand,$185.00,each,28,8,ToolMaster Pro,TMP-PB-RS,6.5,null,Steel,Red,24,1,01/08/2024
+MB-STAND-002,Front Headlift Stand,Maintenance Tools,Pitbull,Front lift stand with pin adapter,210.99,Each,22,6,ToolMaster Pro,TMP-PB-FS,7.2,45 x 38 x 35,steel,red,24,TRUE,2024-08-15
+MB-TOOL-001, Socket Set 3/8" ,Tools,SNAP-ON,Professional socket set 32pc,275.00,set,18,5,ToolMaster Pro,TMP-SO-SS38,3.8,Case: 35 x 25 x 6,Chrome Vanadium,Silver,lifetime,true,15/08/2024
+MB-COVER-001,Motorcycle Cover XL,Accessories,Dowco,Weatherproof cover for cruisers,89.99,each,55,15,AccessoryWorld,AW-DC-XL,1.45,Fits bikes up to 250cm,Polyester,Grey,12,1,2024-09-01
+MB-ALARM-001, Security Alarm ,Security,XENA,Disc lock alarm 120db,119.99,each,40,12,SecureMoto Inc,SMI-XE-DA,0.65,null,Steel-Electronics,Black/Yellow,24,YES,01/09/2024
+MB-COMM-001,Bluetooth Intercom,Electronics,SENA,Mesh intercom system single pack,299.99,each,32,10,TechRider Solutions,TRS-SE-BT,0.25,8 x 6 x 3,Plastic-Electronics,Matte Black,24,TRUE,2024-09-15
+MB-VISOR-001, Helmet Visor Clear ,Accessories,shoei,Clear replacement visor anti-fog,$85.00,each,68,20,Rider Safety Pro,RSP-SV-CLR,0.22,30 x 22 x 0.3,Polycarbonate,Clear,null,1,15/09/2024
+MB-PEGS-001,Rear Foot Pegs,Controls,Vortex,Adjustable rear foot pegs aluminum,135.99,pair,35,10,PerformancePlus,PP-VX-RFP,0.85,12 x 4 x 3 each,Aluminum,Black,12,true,2024-10-01
+MB-LEVER-001,Brake Lever,Controls,pazzos,Short adjustable brake lever CNC,89.99,each,45,15,PerformancePlus,PP-PZ-BL,0.18,16 x 3 x 2,aluminum,Red,12,TRUE,01/10/2024
+MB-LEVER-001,Clutch Lever,Controls,PAZZOS,Short adjustable clutch lever CNC,89.99,each,42,15,PerformancePlus,PP-PZ-CL,0.18,16 x 3 x 2,Aluminum,Blue,12,1,2024-10-01
+MB-GRIP-001, Heated Grips ,Controls,Oxford,Heated handlebar grips with controller,95.99,pair,38,12,ControlTech Supplies,CTS-OX-HG,0.45,12 x 3 x 3 each,Rubber-Heating Element,Black,24,yes,01/10/2024
+MB-PLUG-001,Spark Plug,Engine Parts,NGK,Iridium spark plug CR9EIA-9,12.99,each,250,60,EngineMasters,EM-NGK-SP9,0.045,1.4 x 1.4 x 6,Iridium-Ceramic,Silver,null,TRUE,2024-10-15
+MB-GASKET-001,Head Gasket,Engine Parts,Cometic,Multi-layer steel head gasket,145.99,each,28,8,EngineMasters,EM-CM-HG,0.25,null,Multi-layer Steel,Silver,12,1,15/10/2024
+MB-COOLANT-001, Coolant 1L ,Fluids & Lubes,Engine Ice,High performance coolant 1 liter,$19.99,each,180,40,FluidTech Solutions,FTS-EI-C1,1.05,8 x 8 x 24,Propylene Glycol,blue,N/A,TRUE,2024-11-01
+MB-BOOT-001,Touring Boots Size 43,Footwear,SIDI,Waterproof touring boots CE approved,349.99,pair,15,5,GearUp Distribution,GUD-SI-TB43,1.95,Size 43 EUR,Leather-Textile,Black,12,true,01/11/2024
+MB-PANTS-001, Riding Jeans 34W ,Riding Gear,Rev'it!,Aramid lined jeans with knee armor,275.00,each,18,6,GearUp Distribution,GUD-RV-RJ34,0.85,Waist 34" Length 32",Denim-Aramid,Blue,12,1,2024-11-15
+MB-EXHAUST-001,Slip-On Exhaust,Exhaust Systems,akrapovic,Titanium slip-on exhaust system,$1299.99,each,8,3,PerformancePlus,PP-AK-SE,3.2,Muffler 45cm length,Titanium-Carbon,Silver/Carbon,24,TRUE,15/11/2024
