@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,phone,address_line1,address_line2,city,county,postcode,country,credit_limit,created_date,active
+1,James,Anderson,james.anderson@email.co.uk,020 7946 0123,123 High Street,,London,Greater London,SW1A 1AA,United Kingdom,£5000.00,2024-01-15,TRUE
+2,Emily,Thompson,emily.thompson@email.co.uk,0161 496 0234,45 Market Street,Flat 2B,Manchester,Greater Manchester,M1 1AE,United Kingdom,£7500.00,2024-02-20,TRUE
+3,Oliver,Davies,oliver.davies@email.co.uk,0131 496 0345,78 Princess Street,,Edinburgh,Midlothian,EH2 2ER,United Kingdom,£3000.00,2024-03-10,TRUE
+4,Sophie,Williams,sophie.williams@email.co.uk,029 2018 0456,12 Cathedral Road,Suite 5,Cardiff,South Glamorgan,CF11 9LJ,United Kingdom,£10000.00,2024-03-25,TRUE
+5,Harry,Brown,harry.brown@email.co.uk,0121 496 0567,56 Corporation Street,,Birmingham,West Midlands,B2 4LP,United Kingdom,£4500.00,2024-04-05,TRUE
+6,Amelia,Jones,amelia.jones@email.co.uk,0113 245 0678,89 Briggate,Floor 3,Leeds,West Yorkshire,LS1 6NP,United Kingdom,£6000.00,2024-04-18,TRUE
+7,George,Wilson,george.wilson@email.co.uk,0141 287 0789,34 Buchanan Street,,Glasgow,Lanarkshire,G1 3HL,United Kingdom,£8500.00,2024-05-02,TRUE
+8,Isabella,Taylor,isabella.taylor@email.co.uk,0117 927 0890,67 Park Street,Apartment 12,Bristol,Bristol,BS1 5PH,United Kingdom,£5500.00,2024-05-15,TRUE
+9,Jack,Evans,jack.evans@email.co.uk,0191 232 0901,23 Grey Street,,Newcastle,Tyne and Wear,NE1 6EE,United Kingdom,£3500.00,2024-06-01,TRUE
+10,Olivia,Roberts,olivia.roberts@email.co.uk,0151 236 1012,90 Lord Street,Unit 4,Liverpool,Merseyside,L2 1TL,United Kingdom,£7000.00,2024-06-20,TRUE
+11,Thomas,Moore,thomas.moore@email.co.uk,01603 610123,45 London Street,,Norwich,Norfolk,NR2 1JF,United Kingdom,£4000.00,2024-07-08,TRUE
+12,Charlotte,White,charlotte.white@email.co.uk,01865 240234,18 Cornmarket Street,Shop 2,Oxford,Oxfordshire,OX1 3EY,United Kingdom,£9000.00,2024-07-22,TRUE
+13,Daniel,Harris,daniel.harris@email.co.uk,01223 350345,52 Sidney Street,,Cambridge,Cambridgeshire,CB2 3HX,United Kingdom,£6500.00,2024-08-05,TRUE
+14,Grace,Martin,grace.martin@email.co.uk,01273 290456,71 North Street,Floor 2,Brighton,East Sussex,BN1 1ZA,United Kingdom,£5200.00,2024-08-19,TRUE
+15,William,Clark,william.clark@email.co.uk,023 8063 0567,34 Above Bar Street,,Southampton,Hampshire,SO14 7DU,United Kingdom,£4800.00,2024-09-03,TRUE
