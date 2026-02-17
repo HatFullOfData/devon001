@@ -16,7 +16,6 @@ CREATE TABLE customers (
     credit_limit DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
     created_date DATE NOT NULL,
     active BOOLEAN DEFAULT TRUE,
-    INDEX idx_email (email),
     INDEX idx_postcode (postcode),
     INDEX idx_last_name (last_name)
 );
